@@ -1,0 +1,25 @@
+<h4> searchV</h4>
+<hr>
+
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+<hr />
+
+<div class="entry">
+  <h1>{{title}}</h1>
+  <h4>{{appnome}}</h4>
+  <div class="body">
+	LOG: {{logss}}
+	<ul>
+	  {{#each logss}}
+
+	   
+		<li>{{id}} {{nome}} 
+		<a href=/manter?id={{id}} >{{nome}}</a> 
+		</li>
+		
+	  {{/each}}
+	</ul>
+  </div>
+</div>
