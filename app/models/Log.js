@@ -34,5 +34,5 @@ var Log = sequelize.define('re_log', {
 }, {
   freezeTableName: false // usar o nome da tabela o mesmo nome definido para o model 'usuario'
 });
-
+sequelize.sync();
 module.exports = sequelize.model('re_log',Log);
