@@ -8,7 +8,7 @@ var app = express();
 var Log = require('../models/Log');
 var indexC = require('../controllers/indexC');
 
-console.log('nova forma.....');
+console.log('nova forma..... dois');
 console.log('controllers.....');
 
 
